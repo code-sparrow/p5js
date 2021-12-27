@@ -10,11 +10,11 @@ function draw() {
     strokeWeight(2);
     stroke(51);
     
-    line(x/2+side/2, side/2, side/2, y/2+side/2);
+    line(x/2, side/2, side/2, y/2);
     
     fill('red');
-    rect(x/2, 0, side, side);
+    rect(x/2-side/2, 0, side, side);
     
     fill('blue');
-    rect(0, y/2, side, side);
+    rect(0, y/2-side/2, side, side);
 }
